@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercise 1 - MONTES11A</title>
+</head>
+<body>
+    <h1 class="h1"> EXERCISE 1! </h1> <br>
+    <div class="container">
+      <p id="firsttry"></p>
+      <p id="midnights"></p>
+      <p id="bookss"></p>
+      <p id="premium"></p>
+      <p id="airpods"></p>
+    </div>
+
+    <script type="text/javascript">
+        
+    const bebeko = {
+        name: "Antonio Latrelle" ,
+        lastName: "Tantiado" ,
+        age: 17, 
+        eyeColor: "brown",
+        humanKind: "amazing"
+    };
+      
+        document.getElementById('firsttry').innerHTML =
+        bebeko.name + " is " + bebeko.age + " years old " + " and his type of eye color is " + bebeko.eyeColor; " he's just the most " + bebeko.humanKind + " human being in this world ";
+
+    const madalingaraw = {
+        songName: "Snow on the Beach" ,
+        albumName: "Midnights" ,
+        sangBy: "Taylor Swift and Lana del Rey", 
+        thingyCalled: "a big, BIG masterpiece"
+    };
+      
+        document.getElementById('midnights').innerHTML =
+        madalingaraw.songName + " from the album " + madalingaraw.albumName + " by international artists " + madalingaraw.sangBy + " is defined as " + madalingaraw.thingyCalled;
+    
+    const trilogy = {
+        bookName: "To All the Boys I've Loved Before",
+        authorName: "Jenny Han",
+        whereNetflix: "Netflix",
+        dateOf: "2018"
+    };
+
+        document.getElementById('bookss').innerHTML =
+        trilogy.bookName + " by author " + trilogy.authorName + " is now showing on " + trilogy.whereNetflix + " starting on " + trilogy.dateOf;
+
+    const concerts = {
+        bandName: "Coldplay",
+        concertName: "Music of the Spheres",
+        whereIs: "Philippine Arena",
+        whenKaya: "January 19"
+    };
+        document.getElementById('premium').innerHTML = 
+        " American band " + concerts.bandName + " is having a concert for their " + concerts.concertName + " album. It will happen here on our very own " + concerts.whereIs + " starting on " + concerts.whenKaya;
+
+    const podsair = {
+        brandName: "Apple",
+        kindOf: "Airpods",
+        whatGen: "Pro 2",
+        quality: "Expectacular"
+    }
+      
+        document.getElementById('airpods').innerHTML =
+        " Brand caled " + podsair.brandName + " recently just released their new " + podsair.kindOf + podsair.whatGen + " and reviews says that its quality is " + podsair.quality + " and is just exquisite";
+    </script>
+</body>
+</html>

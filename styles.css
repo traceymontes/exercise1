@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    border: 2px solid #f30590; /* Adjust the outer border width and color */
+    padding: 10px;
+    width: 50%; /* Adjust the width of the container */
+    max-width: 600px; /* Set a maximum width for better responsiveness */
+    background-color: rgba(255, 167, 211, 0.329); /* Semi-transparent white background */
+}
+
+p {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Adjust the inner border width and color */
+    margin: 0;
+    transition: background-color 0.3s ease; /* Only background color transition */
+}
+
+p:hover {
+    background-color: #be57ada8; /* Change background color on hover */
+}
